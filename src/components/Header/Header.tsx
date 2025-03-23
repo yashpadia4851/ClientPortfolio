@@ -1,23 +1,25 @@
-import { Container } from './styles'
-import { BrowserRouter as Router } from 'react-router-dom'
-import { NavHashLink, HashLink } from 'react-router-hash-link'
-import { useState } from 'react'
-import Resume from '../../assets/Vinayak_Kumar_Singh_Resume.pdf'
+import { Container } from "./styles";
+import { BrowserRouter as Router } from "react-router-dom";
+import { NavHashLink, HashLink } from "react-router-hash-link";
+import { useState } from "react";
+import jsIcon from "../../assets/flamingtext_com-1728207255-removebg-preview.png"
+import Resume from "../../assets/Payal_Sapariya_Resume_Coverletter.pdf";
 export function Header() {
-  const [isActive, setActive] = useState(false)
+  const [isActive, setActive] = useState(false);
   function toggleTheme() {
-    let html = document.getElementsByTagName('html')[0]
-    html.classList.toggle('light')
+    let html = document.getElementsByTagName("html")[0];
+    html.classList.toggle("light");
   }
   function closeMenu() {
-    setActive(false)
+    setActive(false);
   }
   return (
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>{"<Vinayak "}</span>
-          <span>{" Singh/>"}</span>
+           {/* <span>{"<Payal "}</span>
+          <span>{" Sapariya/>"}</span>  */}
+          <img src={jsIcon} className="image_header" alt="JavaScript" />
         </HashLink>
         <input
           onChange={toggleTheme}
@@ -27,7 +29,7 @@ export function Header() {
           name="mode"
         />
         <label htmlFor="switch">Toggle</label>
-        <nav className={isActive ? 'active' : ''}>
+        <nav className={isActive ? "active" : ""}>
           <NavHashLink smooth to="#home" onClick={closeMenu}>
             Home
           </NavHashLink>
@@ -45,15 +47,15 @@ export function Header() {
           </a>
         </nav>
         <div
-          aria-expanded={isActive ? 'true' : 'false'}
+          aria-expanded={isActive ? "true" : "false"}
           aria-haspopup="true"
-          aria-label={isActive ? 'Fechar menu' : 'Abrir menu'}
-          className={isActive ? 'menu active' : 'menu'}
+          aria-label={isActive ? "Fechar menu" : "Abrir menu"}
+          className={isActive ? "menu active" : "menu"}
           onClick={() => {
-            setActive(!isActive)
+            setActive(!isActive);
           }}
         ></div>
       </Router>
     </Container>
-  )
+  );
 }

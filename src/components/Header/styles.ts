@@ -17,6 +17,10 @@ export const Container = styled.header`
   width: 100vw;
   z-index: 1000;
 
+  .image_header {
+    width : 17vh
+  }
+
   nav{
     display: flex;
     align-items: center;

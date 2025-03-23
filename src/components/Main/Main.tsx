@@ -147,74 +147,69 @@ export function Main() {
                 "value": "*",
                 "weight": "400"
               },
-              "image": [
-                {
-                  "src": boostrapIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": cssIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": wordpress,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": shopify,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": htmlIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": jsIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                {
-                  "src": nodeIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": reactIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": sassIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": typescriptIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                {
-                  "src": vueIcon,
-                  "width": 20,
-                  "height": 20
-                },
+              
+              //   {
+              //     "src": boostrapIcon,
+              //     "width": 20,
+              //     "height": 20
+              //   },
+              //   {
+              //     "src": cssIcon,
+              //     "width": 20,
+              //     "height": 20
+              //   },
+              //   {
+              //     "src": wordpress,
+              //     "width": 20,
+              //     "height": 20
+              //   },
+              //   {
+              //     "src": shopify,
+              //     "width": 20,
+              //     "height": 20
+              //   },
+              //   {
+              //     "src": htmlIcon,
+              //     "width": 20,
+              //     "height": 20
+              //   },
+              //   {
+              //     "src": jsIcon,
+              //     "width": 20,
+              //     "height": 20
+              //   },
+              //   // {
+              //   //   "src": mysqlIcon,
+              //   //   "width": 20,
+              //   //   "height": 20
+              //   // },
+              //   {
+              //     "src": nodeIcon,
+              //     "width": 20,
+              //     "height": 20
+              //   },
+              //   {
+              //     "src": reactIcon,
+              //     "width": 20,
+              //     "height": 20
+              //   },
+              //   {
+              //     "src": sassIcon,
+              //     "width": 20,
+              //     "height": 20
+              //   },
+              //   {
+              //     "src": typescriptIcon,
+              //     "width": 20,
+              //     "height": 20
+              //   },
+              //   {
+              //     "src": vueIcon,
+              //     "width": 20,
+              //     "height": 20
+              //   },
 
-              ],
+              // ],
               "polygon": {
                 "sides": 5
               },
