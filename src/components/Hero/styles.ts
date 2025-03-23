@@ -7,9 +7,6 @@ export const Container = styled.section`
   gap: 8rem;
   background: rgba(0, 0, 0, 0);
 
-  .text {
-    margin-bottom: 4rem;
-  }
   .hero-text {
     & > p {
       font-size: 1.8rem;

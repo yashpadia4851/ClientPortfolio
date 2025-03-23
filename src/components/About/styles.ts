@@ -48,18 +48,21 @@ export const Container = styled.section`
   .about-image{
     text-align: center;
    img{
-     margin-top: 2rem;
-     width: 75%;
-     filter: grayscale(0);
-     transition: filter 0.5s;
-     &:hover{
-       filter: grayscale(0);
-     }
+    margin-top: 2rem;
+    margin-left: 10rem;
+    width: 85%;
+    filter: grayscale(0);
+    border-radius: 4rem;
+    transition: filter 0.5s;
+    &:hover{
+      filter: grayscale(0);
+    }
    }
   }
 
   @media only screen and (max-width: 480px) {
     .about-image {
+      margin-left: 0rem;
       max-width: 100%;
       margin-top: 4rem;
       img{
@@ -85,6 +88,7 @@ export const Container = styled.section`
       max-width: 100%;
       img{
         margin-top: 2rem;
+        margin-left: 0rem;
         width: 100%;
         filter: grayscale(0);
         transition: filter 0.5s;
@@ -96,4 +100,4 @@ export const Container = styled.section`
     
   }
 
-`
+`;

@@ -19,7 +19,10 @@ export function Hero() {
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1 className="text">Payal Sapariya</h1>
+          <h1>Payal Sapariya</h1>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+          <h3 style={{ marginBottom: "4rem" }}>UI & UX Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
