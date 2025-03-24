@@ -13,8 +13,7 @@ export function Footer() {
       </a>
       <div>
         <p>
-          This Website was made with <img src={reactIcon} alt="React" />
-          {/* <span>❤️</span> */}
+          <span>Made with ❤️ by Payal Sapariya</span>
         </p>
       </div>
       <div className="social-media">
@@ -26,7 +25,7 @@ export function Footer() {
           <img src={linkedin} alt="Linkedin" />
         </a>
         <a
-          href="https://github.com/CodeVinayak/"
+          href="https://github.com/PayalSapariya"
           target="_blank"
           rel="noreferrer"
         >
