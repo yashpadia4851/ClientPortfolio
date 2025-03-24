@@ -1,328 +1,314 @@
 import { Container } from "./styles";
-import githubIcon from "../../assets/github.svg"
-// import DownloadApp from '../../assets/download.webp'
-import externalLink from "../../assets/external-link.svg"
+import newsapp from "../../assets/newsapp.png";
+import ochiImage from "../../assets/ochiIamge.png";
+import youtubeClone from "../../assets/youtube.png";
+import uberCloneImage from "../../assets/uber.png";
 import ScrollAnimation from "react-animate-on-scroll";
-
 
 export function Project() {
   return (
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
-              <div className="project-links">
-                {/* <a href="https://github.com/CodeVinayak/Serverless-Voting-Application" target="_blank" rel="noreferrer"> */}
-                  {/* <img src={githubIcon} alt="Visit site" /></a> */}
-                <a href="https://ochi-flax.vercel.app/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a> </div>
-            </header>
-            <div className="body">
-              <h3>
-                Ochi website for Clothing
-              </h3>
-              <p>Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, sell products, explain complex ideas, and hire great people. </p>
+            <div className="">
+              <a
+                href="https://ochi-flax.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="Website_Image"
+                  src={ochiImage}
+                  alt="Visit site"
+                />
+              </a>
             </div>
-            <footer> <ul className="tech-list"> <li>ReactJS</li> <li>API Gateway</li> <li>DynamoDB</li> </ul> </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/AI-Chatbot-Assistant" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" /></a>
-              </div>
-            </header>
             <div className="body">
-              <h3>GeniusBot: AI-Powered Assistance with PDF Insight</h3>
-              <p>
-                Developed an interactive chatbot application using Streamlit, OpenAI's GPT-3.5-turbo language model, and PyPDF2 for PDF text extraction, enabling users to ask context-based questions on uploaded PDFs and general queries.
-              </p>
+              <h3>OCHI - Presentation Design Agency</h3>
+              <ul>
+                <li>
+                  <strong>Objective:</strong> Improve usability, structure, and
+                  visual storytelling.
+                </li>
+                <li className="ui_list">
+                  <strong>Target Users:</strong> Businesses needing presentation
+                  design & UI/UX expertise.
+                </li>
+                <li className="ui_list">
+                  <strong>Key Features:</strong>
+                </li>
+                <ul>
+                  <li>✔ Clean, modern, and interactive UI</li>
+                  <li>✔ Smooth animations & engaging transitions</li>
+                  <li>✔ Portfolio showcase with case studies</li>
+                  <li>✔ Clear call-to-actions for lead generation</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>My Role:</strong> UX Designer & Researcher
+                </li>
+                <ul>
+                  <li>🔍 User research & competitive analysis</li>
+                  <li>✏ Wireframing & prototyping in Figma</li>
+                  <li>👥 Usability testing & design improvements</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>Key Takeaways:</strong>
+                </li>
+                <ul>
+                  <li>✅ Storytelling-driven approach enhanced engagement</li>
+                  <li>🚀 Balanced aesthetics with performance</li>
+                  <li>🔄 Future: Explore more micro-interactions</li>
+                </ul>
+              </ul>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Streamlit</li>
-                <li>PyPDF2</li>
-                <li>LangChain</li>
+                <li>ReactJS</li>
+                <li>Figma</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>GSAP (GreenSock) for Animations</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="\_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
-                </a>
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
+            <div className="">
+              <a
+                href="https://uber-clone.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="Website_Image"
+                  src={uberCloneImage}
+                  alt="Visit site"
+                />
+              </a>
+            </div>
             <div className="body">
-              <h3>Credit Risk Analysis Project</h3>
-              <p>
-                Developed a highly accurate credit risk classification model using XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults.Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning on imbalanced credit risk data, employing ensemble methods, cross-validation, and model interpretation techniques.
-              </p>
+              <h3>Uber Clone Website</h3>
+              <ul>
+                <li>
+                  <strong>Objective:</strong> Develop a responsive, feature-rich
+                  platform with real-time interactions and modern UI.
+                </li>
+                <li className="ui_list">
+                  <strong>Target Users:</strong>
+                </li>
+                <ul>
+                  <li>✔ Riders seeking fast and reliable booking</li>
+                  <li>✔ Drivers managing ride requests efficiently</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>Key Features:</strong>
+                </li>
+                <ul>
+                  <li>✔ Intuitive ride-booking interface</li>
+                  <li>✔ Animated navigation bar and footer</li>
+                  <li>✔ Real-time ride tracking and status updates</li>
+                  <li>✔ Seamless user-driver communication</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>My Role:</strong> UI/UX Designer & Developer
+                </li>
+                <ul>
+                  <li>🎨 UI/UX design & prototyping in Figma</li>
+                  <li>💻 Animation implementation for nav bar & footer</li>
+                  <li>👥 Usability testing & refinement</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>Key Takeaways:</strong>
+                </li>
+                <ul>
+                  <li>
+                    ✅ Real-time updates and engaging animations improved user
+                    experience
+                  </li>
+                  <li>🚀 Balanced performance with smooth transitions</li>
+                  <li>
+                    🔄 Future: Exploring micro-interactions for enhanced
+                    engagement
+                  </li>
+                </ul>
+              </ul>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>XGBoost</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
+                <li>Framer Motion </li>
+                <li>Figma Auto Layout </li>
+                <li>Figma Variants </li>
+                <li>Figma Smart Animate</li>
+                <li>Figma Plugins</li>
+                <li>Figma Prototype Interaction</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/MediBook-Medical-Appointment-Scheduler-with-Health-History" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
-                </a>
-                <a href="https://medibook.vinayaksingh.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
+            <div className="image-container">
+              <a
+                href="https://news-app-react-app.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="Website_Image" src={newsapp} alt="Visit site" />
+              </a>
+            </div>
             <div className="body">
-              <h3>MediBook: Medical Appointment Scheduler with Health History</h3>
-              <p>Developed a secure medical appointment management platform with CRUD functionality, utilizing role-based access control, encryption techniques, and a robust MySQL database with normalized schema design and stored procedures for efficient scheduling, data privacy, and reliable retrieval of patient records.</p>
+              <h3>Daily News App</h3>
+              <ul>
+                <li>
+                  <strong>Objective:</strong> Provide users with the latest news
+                  updates across multiple categories with an intuitive,
+                  real-time interface.
+                </li>
+                <li className="ui_list">
+                  <strong>Target Users:</strong>
+                </li>
+                <ul>
+                  <li>✔ Users looking for quick and reliable news updates</li>
+                  <li>
+                    ✔ Readers interested in customized content from different
+                    sources
+                  </li>
+                </ul>
+                <li className="ui_list">
+                  <strong>Key Features:</strong>
+                </li>
+                <ul>
+                  <li>✔ Live news updates from multiple sources</li>
+                  <li>
+                    ✔ Category-based content filtering (e.g., Tech, Sports,
+                    Business)
+                  </li>
+                  <li>✔ Real-time push notifications for breaking news</li>
+                  <li>✔ Personalized user preferences and saved articles</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>My Role:</strong> UI/UX Designer & Developer
+                </li>
+                <ul>
+                  <li>🎨 Designed wireframes & prototypes in Figma</li>
+                  <li>
+                    💻 Developed and integrated APIs for fetching news content
+                  </li>
+                  <li>
+                    👥 Conducted usability testing to refine user interaction
+                  </li>
+                </ul>
+                <li className="ui_list">
+                  <strong>Key Takeaways:</strong>
+                </li>
+                <ul>
+                  <li>
+                    ✅ Improved real-time content delivery and user engagement
+                  </li>
+                  <li>
+                    🚀 Enhanced filtering options and optimized search
+                    functionality
+                  </li>
+                  <li>
+                    🔄 Future: Adding AI-based article suggestions and voice
+                    search
+                  </li>
+                </ul>
+              </ul>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>PHP</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>MySQL</li>
+                <li>JavaScriptJs</li>
+                <li>Search API</li>
+                <li>News API API</li>
+                <li>TailwindCSS</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                <title>Code</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Real-Time-Hand-Gesture-Driven-3D-Object-Manipulation" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
-                </a>
-                <a href="https://youtu.be/NOm-3MynPLE" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
+            <div className="image-container">
+              <a
+                href="https://view-tube-orpin.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="Website_Image"
+                  src={youtubeClone}
+                  alt="Visit site"
+                />
+              </a>
+            </div>
             <div className="body">
-              <h3>Real-Time Hand Gesture-Driven 3D Object Manipulation</h3>
-              <p>Developed a real-time hand gesture recognition system for intuitive 3D object manipulation. Leveraged a multimodal approach integrating OpenCV for video processing, MediaPipe for hand detection/landmark extraction, and scikit-learn for machine learning model training. Achieved 95.2% accuracy in hand gesture classification with efficient real-time performance.</p>
+              <h3>YouTube Clone Project</h3>
+              <ul>
+                <li>
+                  <strong>Objective:</strong> Develop a dynamic video streaming
+                  platform that mimics core YouTube functionalities with modern
+                  UI/UX.
+                </li>
+                <li className="ui_list">
+                  <strong>Target Users:</strong>
+                </li>
+                <ul>
+                  <li>✔ Users looking for seamless video streaming</li>
+                  <li>
+                    ✔ Viewers interested in interactive video browsing and
+                    search
+                  </li>
+                </ul>
+                <li className="ui_list">
+                  <strong>Key Features:</strong>
+                </li>
+                <ul>
+                  <li>✔ Toggle hamburger menu for smooth navigation</li>
+                  <li>✔ Real-time search using YouTube API</li>
+                  <li>✔ Dynamic video cards displaying live content</li>
+                  <li>✔ Nested comments with real-time updates and deletion</li>
+                  <li>
+                    ✔ API polling with automatic comment removal after a set
+                    duration
+                  </li>
+                </ul>
+                <li className="ui_list">
+                  <strong>My Role:</strong> Frontend Developer
+                </li>
+                <ul>
+                  <li>
+                    💻 Developed key features using React, Redux, and APIs
+                  </li>
+                  <li>🔍 Optimized search with debouncing and API polling</li>
+                  <li>👥 Enhanced user interaction with dynamic UI updates</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>Key Takeaways:</strong>
+                </li>
+                <ul>
+                  <li>✅ Boosted search efficiency and user engagement</li>
+                  <li>
+                    🚀 Achieved a 40% improvement in application performance
+                  </li>
+                  <li>🔄 Future: Implement advanced video recommendations</li>
+                </ul>
+              </ul>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>OpenCV</li>
-                <li>MediaPipe</li>
-                <li>scikit-learn</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScriptJs</li>
+                <li>TMBD API's</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://velocityai.vinayaksingh.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>VeloCityAI</h3>
-              <p>
-                VelocityAI is a website that allows users to get instant answers to any question and generate stunning AI pictures using OpenAI's GPT-3 and DALL-E model.With VelocityAI, users can type in text-based prompts and receive a corresponding response.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>React</li>
-                <li>Typescript</li>
-                <li>Html</li>
-                <li>css</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        {/* <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://justmedicalbooks.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>MedicalBooks - Book Selling Site</h3>
-              <p>
-                This website sells medical books online and is popular with medical students. Medical students use it to buy books and acquire knowledge. The site has all kinds of medical books in one place.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-                <li>Woocommerce</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> */}
-
-        {/* <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://drrohitdamor.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Dr.Rohit Damor - Online Appointment Booking Site</h3>
-              <p>
-                This website allows people to easily book appointments with you online. It takes just a minute to schedule a meeting. This kind of site is helpful for booking appointments and not missing any potential clients. You should try this website to see how convenient and efficient it is.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> */}
-
-        {/* <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://mitulindustries.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Mitul Industries - Manufacturing Industries Site</h3>
-              <p>
-              This manufacturing industry website shows off products and helps the business get more customers and information online. Making products is important but making money from them is the goal. This site can help the business make more profit.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> */}
-
-        {/* 
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://mayatmaj.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Mayatmaj - Film Production Site</h3>
-              <p>
-                This agency website promotes post production, virtual production, and video marketing services. It shows previous client work and reviews to get more business. If you need help with production, this website can give you information and connect you with the right people.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> */}
-
-        {/* <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://www.smartcornersproperties.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>SmartCorners - Real Estate Properties Site</h3>
-              <p>
-              This real estate site displays land properties and helps buyers and sellers. Buyers can see lots of pictures, videos, and details about properties before visiting in person. It makes it easier for buyers to find what they want and helps sellers get more attention.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>               
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> */}
-        
-        {/* <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://madewithluv.in/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>MadeWithLuv - HomeDecor Site</h3>
-              <p>
-                This website sells home decor products and helps people decorate their homes. It is easy to find what you need, whether it's furniture or decorations. The site is useful for people who want to make their homes look nice and need some help.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-                <li>Woocommerce</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> */}
-
       </div>
     </Container>
   );

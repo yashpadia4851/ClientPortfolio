@@ -2,7 +2,7 @@ import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
-import jsIcon from "../../assets/flamingtext_com-1728207255-removebg-preview.png"
+import payal from "../../assets/headerphoto.png"
 import Resume from "../../assets/Payal_Sapariya_Resume_Coverletter.pdf";
 export function Header() {
   const [isActive, setActive] = useState(false);
@@ -19,7 +19,7 @@ export function Header() {
         <HashLink smooth to="#home" className="logo">
            {/* <span>{"<Payal "}</span>
           <span>{" Sapariya/>"}</span>  */}
-          <img src={jsIcon} className="image_header" alt="JavaScript" />
+          <img src={payal} className="image_header" alt="JavaScript" />
         </HashLink>
         <input
           onChange={toggleTheme}

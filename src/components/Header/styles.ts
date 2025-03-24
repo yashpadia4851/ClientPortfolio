@@ -18,7 +18,7 @@ export const Container = styled.header`
   z-index: 1000;
 
   .image_header {
-    width : 17vh
+    width : 10vh
   }
 
   nav{
