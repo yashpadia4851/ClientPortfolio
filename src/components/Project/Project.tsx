@@ -10,7 +10,7 @@ export function Project() {
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeIn">
           <div className="project">
             <div className="">
               <a
@@ -54,6 +54,22 @@ export function Project() {
                   <li>👥 Usability testing & design improvements</li>
                 </ul>
                 <li className="ui_list">
+                  <strong>User Research:</strong>
+                </li>
+                <ul>
+                  <li>📊 Conducted interviews with 5 B2B clients to identify pain points</li>
+                  <li>🔎 Analyzed competitor platforms to benchmark design patterns</li>
+                  <li>📚 Created personas to define user goals and workflows</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>User Testing:</strong>
+                </li>
+                <ul>
+                  <li>👥 Moderated usability tests with real clients to assess navigation</li>
+                  <li>✅ Collected insights to optimize CTAs and improve task completion rate</li>
+                  <li>🔄 Iterated designs based on feedback to enhance storytelling</li>
+                </ul>
+                <li className="ui_list">
                   <strong>Key Takeaways:</strong>
                 </li>
                 <ul>
@@ -74,7 +90,8 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="flipInX">
+
+        <ScrollAnimation animateIn="fadeIn">
           <div className="project">
             <div className="">
               <a
@@ -121,6 +138,22 @@ export function Project() {
                   <li>👥 Usability testing & refinement</li>
                 </ul>
                 <li className="ui_list">
+                  <strong>User Research:</strong>
+                </li>
+                <ul>
+                  <li>📊 Analyzed ride-hailing apps to understand user flows</li>
+                  <li>🚗 Conducted surveys with 50+ users to identify challenges in booking</li>
+                  <li>🔍 Created journey maps to visualize rider and driver interactions</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>User Testing:</strong>
+                </li>
+                <ul>
+                  <li>👥 Performed usability tests with 10 users for real-time booking flow</li>
+                  <li>✅ Identified pain points related to navigation and status updates</li>
+                  <li>🔄 Refined ride-booking interface based on user feedback</li>
+                </ul>
+                <li className="ui_list">
                   <strong>Key Takeaways:</strong>
                 </li>
                 <ul>
@@ -138,9 +171,9 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Framer Motion </li>
-                <li>Figma Auto Layout </li>
-                <li>Figma Variants </li>
+                <li>Framer Motion</li>
+                <li>Figma Auto Layout</li>
+                <li>Figma Variants</li>
                 <li>Figma Smart Animate</li>
                 <li>Figma Plugins</li>
                 <li>Figma Prototype Interaction</li>
@@ -148,7 +181,93 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="flipInX">
+
+        <ScrollAnimation animateIn="fadeIn">
+          <div className="project">
+            <div className="">
+              <a
+                href="https://youtube-clone.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="Website_Image"
+                  src={youtubeClone}
+                  alt="Visit site"
+                />
+              </a>
+            </div>
+            <div className="body">
+              <h3>YouTube Clone Project</h3>
+              <ul>
+                <li>
+                  <strong>Objective:</strong> Build a responsive and
+                  feature-rich YouTube-like interface with video browsing,
+                  playback, and search.
+                </li>
+                <li className="ui_list">
+                  <strong>Target Users:</strong>
+                </li>
+                <ul>
+                  <li>✔ Users looking for video content and personalized recommendations</li>
+                  <li>✔ Content creators managing and uploading videos</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>Key Features:</strong>
+                </li>
+                <ul>
+                  <li>✔ Video browsing, playback, and recommendations</li>
+                  <li>✔ Search functionality with filtering</li>
+                  <li>✔ Responsive layout for mobile and desktop</li>
+                  <li>✔ Comments and video interactions</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>My Role:</strong> UI/UX Designer & Developer
+                </li>
+                <ul>
+                  <li>🎨 Designed interactive interfaces in Figma</li>
+                  <li>💻 Developed key features with React & Vite</li>
+                  <li>🔍 Conducted usability testing for smooth video interactions</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>User Research:</strong>
+                </li>
+                <ul>
+                  <li>📊 Analyzed top video streaming platforms for best practices</li>
+                  <li>🎥 Interviewed 20+ users to understand expectations around video browsing</li>
+                  <li>📚 Created personas to define key user needs and scenarios</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>User Testing:</strong>
+                </li>
+                <ul>
+                  <li>👥 Conducted A/B testing on search & filtering UX</li>
+                  <li>✅ Evaluated user satisfaction through video playback tests</li>
+                  <li>🔄 Improved video recommendations and navigation experience</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>Key Takeaways:</strong>
+                </li>
+                <ul>
+                  <li>✅ Enhanced search functionality and recommendations</li>
+                  <li>🚀 Improved video playback UX with better loading times</li>
+                  <li>🔄 Future: Adding playlist management and dark mode support</li>
+                </ul>
+              </ul>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>ReactJS</li>
+                <li>Vite</li>
+                <li>Tailwind CSS</li>
+                <li>React Router</li>
+                <li>API Integration (YouTube API)</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeIn">
           <div className="project">
             <div className="image-container">
               <a
@@ -202,6 +321,22 @@ export function Project() {
                   </li>
                 </ul>
                 <li className="ui_list">
+                  <strong>User Research:</strong>
+                </li>
+                <ul>
+                  <li>📊 Interviewed news consumers to understand content preferences</li>
+                  <li>📚 Analyzed popular news apps for feature comparison</li>
+                  <li>🔎 Mapped user journeys to refine onboarding flow</li>
+                </ul>
+                <li className="ui_list">
+                  <strong>User Testing:</strong>
+                </li>
+                <ul>
+                  <li>👥 Conducted A/B testing on category filtering</li>
+                  <li>✅ Refined notification preferences based on user feedback</li>
+                  <li>🔄 Improved search functionality for faster results</li>
+                </ul>
+                <li className="ui_list">
                   <strong>Key Takeaways:</strong>
                 </li>
                 <ul>
@@ -223,88 +358,10 @@ export function Project() {
               <ul className="tech-list">
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>JavaScriptJs</li>
+                <li>JavaScript</li>
                 <li>Search API</li>
-                <li>News API API</li>
+                <li>News API</li>
                 <li>TailwindCSS</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <div className="image-container">
-              <a
-                href="https://view-tube-orpin.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="Website_Image"
-                  src={youtubeClone}
-                  alt="Visit site"
-                />
-              </a>
-            </div>
-            <div className="body">
-              <h3>YouTube Clone Project</h3>
-              <ul>
-                <li>
-                  <strong>Objective:</strong> Develop a dynamic video streaming
-                  platform that mimics core YouTube functionalities with modern
-                  UI/UX.
-                </li>
-                <li className="ui_list">
-                  <strong>Target Users:</strong>
-                </li>
-                <ul>
-                  <li>✔ Users looking for seamless video streaming</li>
-                  <li>
-                    ✔ Viewers interested in interactive video browsing and
-                    search
-                  </li>
-                </ul>
-                <li className="ui_list">
-                  <strong>Key Features:</strong>
-                </li>
-                <ul>
-                  <li>✔ Toggle hamburger menu for smooth navigation</li>
-                  <li>✔ Real-time search using YouTube API</li>
-                  <li>✔ Dynamic video cards displaying live content</li>
-                  <li>✔ Nested comments with real-time updates and deletion</li>
-                  <li>
-                    ✔ API polling with automatic comment removal after a set
-                    duration
-                  </li>
-                </ul>
-                <li className="ui_list">
-                  <strong>My Role:</strong> Frontend Developer
-                </li>
-                <ul>
-                  <li>
-                    💻 Developed key features using React, Redux, and APIs
-                  </li>
-                  <li>🔍 Optimized search with debouncing and API polling</li>
-                  <li>👥 Enhanced user interaction with dynamic UI updates</li>
-                </ul>
-                <li className="ui_list">
-                  <strong>Key Takeaways:</strong>
-                </li>
-                <ul>
-                  <li>✅ Boosted search efficiency and user engagement</li>
-                  <li>
-                    🚀 Achieved a 40% improvement in application performance
-                  </li>
-                  <li>🔄 Future: Implement advanced video recommendations</li>
-                </ul>
-              </ul>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScriptJs</li>
-                <li>TMBD API's</li>
               </ul>
             </footer>
           </div>
