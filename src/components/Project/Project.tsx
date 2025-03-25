@@ -50,7 +50,7 @@ export function Project() {
                 </li>
                 <ul>
                   <li>🔍 User research & competitive analysis</li>
-                  <li>✏ Wireframing & prototyping in Figma</li>
+                  {/* <li>✏ Wireframing & prototyping in Figma</li> */}
                   <li>👥 Usability testing & design improvements</li>
                 </ul>
                 <li className="ui_list">
@@ -82,7 +82,7 @@ export function Project() {
             <footer>
               <ul className="tech-list">
                 <li>ReactJS</li>
-                <li>Figma</li>
+                {/* <li>Figma</li> */}
                 <li>CSS3</li>
                 <li>JavaScript</li>
                 <li>GSAP (GreenSock) for Animations</li>
@@ -225,7 +225,7 @@ export function Project() {
                   <strong>My Role:</strong> UI/UX Designer & Developer
                 </li>
                 <ul>
-                  <li>🎨 Designed interactive interfaces in Figma</li>
+                  {/* <li>🎨 Designed interactive interfaces in Figma</li> */}
                   <li>💻 Developed key features with React & Vite</li>
                   <li>🔍 Conducted usability testing for smooth video interactions</li>
                 </ul>
@@ -312,7 +312,7 @@ export function Project() {
                   <strong>My Role:</strong> UI/UX Designer & Developer
                 </li>
                 <ul>
-                  <li>🎨 Designed wireframes & prototypes in Figma</li>
+                  {/* <li>🎨 Designed wireframes & prototypes in Figma</li> */}
                   <li>
                     💻 Developed and integrated APIs for fetching news content
                   </li>
