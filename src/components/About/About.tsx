@@ -6,7 +6,7 @@ import adobe from "../../assets/adobe-removebg-preview.png";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
-import figma from "../../assets/figma-removebg-preview.png"
+import figma from "../../assets/figma-removebg-preview.png";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -19,10 +19,11 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            I’m a civil engineer turned UI/UX designer, blending logic with
-            creativity to craft seamless digital experiences. With 2.5 years in
-            structural design, I mastered problem-solving, precision, and system
-            thinking—skills that now shape my approach to user-centered design.
+            I’m a civil engineer, transitioning to UI/UX development, blending
+            logic with creativity to build seamless digital experiences. With
+            2.5 years in structural design, I honed problem-solving, precision,
+            and system thinking—skills that now shape my approach to front-end
+            development and user-centered design.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -32,18 +33,20 @@ export function About() {
         >
           <p>
             Currently pursuing a Graduate Diploma in Interactive Media
-            Management – Interaction Design, I’m diving into research,
-            wireframing, prototyping, and usability testing to create intuitive
-            and engaging interfaces. My transition into UI/UX comes from a
-            passion for making technology more human-friendly.
+            Management – Interaction Design, I’m gaining expertise in HTML, CSS,
+            JavaScript, responsive design, and accessibility, alongside
+            research, wireframing, prototyping, and usability testing. My
+            transition into UI/UX development stems from a passion for making
+            technology more intuitive and user-friendly.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I love tackling complex challenges, simplifying workflows, and
-            designing products that people actually enjoy using. Whether it’s
-            refining interactions or rethinking user journeys, I’m always
-            excited to bring fresh ideas to the table
+            I enjoy tackling complex challenges, optimizing workflows, and
+            bringing designs to life through clean, interactive, and efficient
+            code. Whether it’s refining interactions, enhancing performance, or
+            rethinking user journeys, I’m always excited to build products
+            that users love.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>

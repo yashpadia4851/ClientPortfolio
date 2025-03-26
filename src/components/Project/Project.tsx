@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import newsapp from "../../assets/newsapp.png";
 import ochiImage from "../../assets/ochiIamge.png";
-import youtubeClone from "../../assets/youtube.png";
+import youtubeClone from "../../assets/youtubeclonec.png";
 import uberCloneImage from "../../assets/uber.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -186,7 +186,7 @@ export function Project() {
           <div className="project">
             <div className="">
               <a
-                href="https://youtube-clone.vercel.app/"
+                href="https://react-youtube-clone-lime.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
